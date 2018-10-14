@@ -38,12 +38,12 @@ if(isset($_POST['username'],$_POST['password'])){
 	<h2>Cross-Site Request Forgery Protection using Synchronizer Token Pattern</h2>
 	<div class="login-page" action="home.php" method="post">
         <div class="form">
-			<h3>Update Your Post</h3>
+			<h3>Order Your Product</h3>
             <form class="login-form" action="home.php" method="post">
                 <div class="credentials">
-					<input type="text" name="updatepost" required="true">
+					Quantity: <input type="text" name="update" required="true">
 				</div>
-				<input type="Submit" value="Update">
+				<input type="Submit" value="Order">
 				<div id="div1">
 					<input type="hidden" name="token" value="" id="token_to_be_added"/>
 				</div>
